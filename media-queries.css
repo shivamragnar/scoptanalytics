@@ -1,0 +1,116 @@
+@media (min-width:320px) and (max-width:344px){
+    .prev-icon{
+        padding-left: 0px;
+        padding-right: 0px;
+    } 
+    .prev-icon img{
+        height:15px;
+        width:15px;
+    }
+    .free-space{
+        display: none;
+    }
+    .fixed-div p{
+        font-size: 8px !important;
+    }
+    .fixed-div h2{
+        font-size: 12px !important;
+    }
+    .align-left-button{
+        padding-left: 10px !important;
+    }
+    .align-right-button{
+        padding-left: 10px !important;
+    }
+    .overview-section, .challenge-section-content, .solution-section{
+        margin-left: 2px;
+    }
+    .result-section-content{
+        margin-left: 18px;
+    }
+    .solution-section-image{
+        display: none;
+    }
+    .overview-section, .challenge-section-content, .result-section-content{
+        max-width: 400px;
+    }
+}
+
+@media (min-width:344px) and (max-width:600px){
+    .prev-icon{
+        padding-left: 0px;
+        padding-right: 0px;
+    } 
+    .prev-icon img{
+        height:15px;
+        width:15px;
+    }
+    .free-space{
+        display: none;
+    }
+    .fixed-div p{
+        font-size: 10px !important;
+    }
+    .fixed-div h2{
+        font-size: 15px !important;
+    }
+    .align-left-button{
+        padding-left: 10px !important;
+    }
+    .align-right-button{
+        padding-left: 10px !important;
+    }
+    .overview-section, .challenge-section-content, .solution-section{
+        margin-left: 2px;
+    }
+    .result-section-content{
+        margin-left: 18px;
+    }
+    .solution-section-image{
+        display: none;
+    }
+    .overview-section, .challenge-section-content, .result-section-content{
+        max-width: 400px;
+    }
+    
+  }
+
+  @media (min-width:600px) and (max-width:768px){
+    .prev-icon{
+        padding-left: 0px;
+        padding-right: 0px;
+    } 
+    .prev-icon img{
+        height:20px;
+        width:20px;
+    }
+    .fixed-div p{
+        font-size: 15px !important;
+    }
+    .fixed-div h2{
+        font-size: 20px !important;
+    }
+    .align-left-button{
+        padding-left: 10px !important;
+    }
+    .align-right-button{
+        padding-left: 10px !important;
+    }
+    .free-space{
+        display: none;
+    }
+    .solution-section-image{
+        display: none;
+    }
+
+  }
+
+
+  @media (min-width:768px) and (max-width:1080px){
+    
+    .overview-section, .challenge-section-content, .result-section-content{
+        max-width: 600px;
+    }
+    
+      
+  }

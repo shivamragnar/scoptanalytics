@@ -1,0 +1,345 @@
+@font-face {
+	font-family: 'Proxima Nova Rg';
+	src: url('./fonts/ProximaNova-Regular.eot');
+	src: local('Proxima Nova Regular'), local('ProximaNova-Regular'),
+		url('./fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/ProximaNova-Regular.woff') format('woff'),
+		url('./fonts/ProximaNova-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'Meta pro';
+    src: url('./fonts/MetaPro-Thin.eot') format('embedded-opentype');
+    src: url('./fonts/MetaPro-Thin.woff') format('woff');
+    src: url('./fonts/MetaPro-Thin.woff2') format('woff2');
+}
+@font-face {
+    font-family:'brillio-source';
+    src:url('https://cdn2.hubspot.net/hubfs/372178/2016-brillio/SourceSansPro-Light.eot?t=1485159300582');
+    src:local('☺'),url('https://cdn2.hubspot.net/hubfs/372178/2016-brillio/SourceSansPro-Light.woff?t=1485159300582') format('woff'),url('https://cdn2.hubspot.net/hubfs/372178/2016-brillio/SourceSansPro-Light.ttf?t=1485159300582') format('truetype'),url('https://cdn2.hubspot.net/hubfs/372178/2016-brillio/SourceSansPro-Light.svg?t=1485159300582') format('svg');
+    font-weight:normal;
+    font-style:normal
+   }
+
+body{
+    padding-top: 10vh;
+    font-family:'brillio-source';
+}
+
+.underline{
+    padding-bottom: 5px;
+    font-size: 40px !important;
+    font-weight: 100;
+}
+h1{
+    font-size: 40px !important;
+}
+
+/***************************************************top case study rotator starts*******************************/
+
+.case-study-flow{
+    background-color:#b2e36f;
+    width: 100%;
+
+}
+.prev-icon, .next-icon, .align-left, .align-right{
+    display: inline-block;
+}
+.fa-caret-left, .fa-caret-right{
+    font-size: 70px;
+
+    padding: 25px 5px 20px 5px;
+
+    color: white;
+}
+.prev-icon, .next-icon{
+    background-color:transparent       ;
+    padding-top: 38px;
+    padding-bottom: 26px;
+    padding-left: 8px;
+    padding-right: 8px;
+
+}
+.prev-icon img{
+    vertical-align: super;
+}
+.free-space{
+    text-align: center;
+    
+   padding-bottom: 15px;
+    
+}
+.middle-heading{
+   margin-top: 1.7em;
+  
+   padding-top: 0.6em;
+   padding-bottom: 0.5em;
+   border-right: 0.1em solid #669623;
+   border-left: 0.1em solid #669623;
+   
+}
+.middle-heading h2{
+    margin-top: 0px;
+    padding-top: 10px;
+}
+
+
+.nav-container-right{
+    float: right;
+}
+.container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.fixed-div h2{
+
+    color:white;
+    font-size:20px;
+    font-weight: 700 !important;
+}
+.fixed-div p{
+    color: #333 !important;
+    font-size: 15px !important;
+    margin:0px !important;
+}
+.fixed-div{
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    top: 10vh;
+    overflow: hidden;
+    font-family: 'Proxima Nova Rg';
+    
+    
+}
+.align-right p{
+
+    text-align: end;
+ }
+ .align-left{
+    padding-left: 8px;
+}
+.align-right{
+    padding-right: 8px;
+}
+.prev-icon img{
+    height: 25px;
+    width:20px;
+}
+
+/***************************************************top case study rotator ends *********************************/
+
+/*************************************************** case study banner starts***********************************/
+.warehouse-banner{
+    
+        height: 45vh;
+        background: linear-gradient(to right bottom,
+            rgba(0,0,0, 0.70), 
+            rgba(20, 20, 20, 0.70)
+          ),
+          url(images/warehouse-section.jpg);
+        background-size: cover;
+        display: flex;
+    
+    justify-content: center;
+}
+.warehouse-header-heading{
+    align-self: center;
+    color: white;
+    font-size: 3.5em;
+}
+.banner{
+    margin-top: 12vh;
+}
+.data-banner{
+    
+    height: 45vh;
+    background: linear-gradient(to right bottom,
+        rgba(0,0,0, 0.85), 
+        rgba(20, 20, 20, 0.70)
+      ),
+      url(images/data-engineering-section.jpg);
+    background-size: cover;
+    display: flex;
+
+justify-content: center;
+}
+.order-banner{
+    height: 45vh;
+    background: linear-gradient(to right bottom,
+        rgba(0,0,0, 0.70), 
+        rgba(20, 20, 20, 0.70)
+      ),
+      url(images/order-banner.jpg);
+    background-size: cover;
+    display: flex;
+
+justify-content: center;
+}
+
+
+
+/************************************************** challenge section **************************************/
+.warehouse-challenge-section{
+    
+    background: linear-gradient(to right bottom,
+            rgba(0,0,0, 0.95), 
+            rgba(20, 20, 20, 0.80)
+          ),
+          url(images/demo.jpg);
+        background-size: cover;
+}
+.challenge-section-para{
+    margin-top: 50px;
+    font-size: 18px;
+    text-align: justify;
+    
+    
+}
+.challenge-section-content{
+    margin-left: 33px;
+    max-width: 920px;
+    overflow: hidden;
+    margin-bottom: 5vh;
+}
+.order-challenge-section{
+    background: linear-gradient(to right bottom,
+    rgba(0,0,0, 0.95), 
+    rgba(20, 20, 20, 0.80)
+  ),
+  url(images/order-challenge.jpg);
+background-size: cover;
+}
+.data-challenge-section{
+    background: linear-gradient(to right bottom,
+    rgba(0,0,0, 0.95), 
+    rgba(20, 20, 20, 0.80)
+  ),
+  url(images/data-challenge.jpg);
+background-size: cover;
+}
+
+
+
+
+/***************************************************overview section *************************************/
+
+.overview-para{
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgba(0,0,0, 0.70);
+}
+.overview-heading{
+    font-size: 40px;
+    color: rgba(0,0,0, 0.70);
+}
+.overview-section{
+    margin-top: 5vh;
+    margin-left: 33px;
+    margin-bottom: 5vh;
+    font-family: 'brillio-source';
+}
+
+.client-overview, .project-overview{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.client-overview h1, .project-overview h1{
+    margin-top: 0px;
+
+}
+.client-overview, .project-overview{
+    padding-top: 0px;
+}
+
+/*************************************************** solution section ***********************************/
+.solution-section{
+    margin-left: 33px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    color: rgba(0,0,0, 0.70);
+}
+.solution-section-text h1{
+    margin-top: 0px;
+}
+.short-heading-container{
+    margin-top: 3%;
+    text-align: justify;
+    border-left: 5px solid #00b140;
+    background-color: beige;
+    
+}
+.list-styling ul{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1em;
+    text-indent: -1em;
+} 
+.list-styling ul li:before{
+    content: "\0BB \020";
+} 
+.solution-section img{
+    margin-top: 30vh;
+}  
+.D-solution-section-image{
+ 
+    background-image: url(images/data-engineering-solution.png);
+    display: none;
+     
+}
+/**************************************************** result section ***********************************/
+.result-section-container{
+    background: linear-gradient(to right bottom,
+    rgba(0,0,0, 0.90), 
+    rgba(20, 20, 20, 0.80)
+  ),
+  url(images/result-section-container.jpg);
+  background-size: cover;
+    
+}
+.result-section-content{
+    margin-left: 45px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    max-width: 700px;
+    overflow: hidden;
+    color: white;
+
+}
+
+.result-section-container h3{
+    font-size: 28px;
+}
+.result-section-container p{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+.short-heading-container p{
+    font-size: 18px;
+}
+.content-padding{
+    padding: 20px;
+}
+ 
+.result-list li {
+    list-style-type: none;
+    padding-left: 15px;
+    position: relative;
+  }
+.result-list li:before {
+    content: "\203B";
+    font-size: 6px;
+    position: absolute;
+    top: 5px;
+    left: -10px;
+  }  
+
+  
+ 
+
+
+  

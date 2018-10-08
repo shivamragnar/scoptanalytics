@@ -1,0 +1,149 @@
+
+@media (min-width:320px) and (max-width:344px){
+    .prev-icon{
+        padding-left: 0px;
+        padding-right: 0px;
+    } 
+    .prev-icon img{
+        height:15px;
+        width:15px;
+    }
+    .free-space{
+        display: none;
+    }
+    .fixed-div p{
+        font-size: 8px !important;
+    }
+    .fixed-div h2{
+        font-size: 12px !important;
+    }
+    .align-left-button{
+        padding-left: 10px !important;
+    }
+    .align-right-button{
+        padding-left: 10px !important;
+    }
+    .overview-section, .challenge-section-content, .solution-section{
+        margin-left: 2px;
+    }
+    .result-section-content{
+        margin-left: 18px;
+    }
+    .solution-section-image{
+        display: none;
+    }
+    .overview-section, .challenge-section-content, .result-section-content{
+        max-width: 300px;
+    }
+}
+
+@media (min-width:345px) and (max-width:599px){
+    .prev-icon{
+        padding-left: 0px;
+        padding-right: 0px;
+    } 
+    .prev-icon img{
+        height:15px;
+        width:15px;
+    }
+    .free-space{
+        display: none;
+    }
+    .fixed-div p{
+        font-size: 10px !important;
+    }
+    .fixed-div h2{
+        font-size: 15px !important;
+    }
+    .align-left-button{
+        padding-left: 10px !important;
+    }
+    .align-right-button{
+        padding-left: 10px !important;
+        display: flex;
+        justify-content: end;
+    }
+    .overview-section, .challenge-section-content, .solution-section{
+        margin-left: 2px;
+    }
+    .result-section-content{
+        margin-left: 18px;
+    }
+    
+    .overview-section, .challenge-section-content, .result-section-content{
+        max-width: 400px;
+    }
+    .solution-section-image{
+        display: none;
+    }
+    .align-right h2{
+        overflow-wrap: break-word;
+        max-width: 100px;
+        display: inline-block;
+        text-align: end;
+    }
+    
+  }
+
+  @media (min-width:600px) and (max-width:767px){
+    .prev-icon{
+        padding-left: 0px;
+        padding-right: 0px;
+    } 
+    .prev-icon img{
+        height:20px;
+        width:20px;
+    }
+    .fixed-div p{
+        font-size: 15px !important;
+    }
+    .fixed-div h2{
+        font-size: 20px !important;
+    }
+    .align-left-button{
+        padding-left: 10px !important;
+    }
+    .align-right-button{
+        padding-left: 10px !important;
+        display: flex;
+        justify-content: end;
+    }
+    .free-space{
+        display: none;
+    }
+    .solution-section-image{
+        display: none;
+    }
+    .align-right h2{
+        overflow-wrap: break-word;
+        max-width: 200px;
+        display: inline-block;
+        text-align: end;
+    }
+    
+
+  }
+
+
+  @media (min-width:768px) and (max-width:1080px){
+    
+    .overview-section, .challenge-section-content, .result-section-content{
+        max-width: 600px;
+    }
+    
+      
+  }
+  @media (min-width:768px) and (max-width:1200px) {
+
+    .align-right h2{
+        overflow-wrap: break-word;
+        max-width: 150px;
+        display: inline-block;
+        text-align: end;
+    }
+    .align-right-button{
+       
+        display: flex;
+        justify-content: end;
+    }
+  }
